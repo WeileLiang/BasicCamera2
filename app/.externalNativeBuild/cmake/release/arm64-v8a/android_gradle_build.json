@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/data/gitSpace/BasicCamera2/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/home/likewise-open/SENSETIME/liangweile/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /data/gitSpace/BasicCamera2/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/likewise-open/SENSETIME/liangweile/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /data/gitSpace/BasicCamera2/app/.externalNativeBuild/cmake/release/arm64-v8a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/home/likewise-open/SENSETIME/liangweile/Android/Ndk/android-ndk-r16b/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/likewise-open/SENSETIME/liangweile/Android/Ndk/android-ndk-r16b/sysroot  -Dnative_lib_EXPORTS -isystem /home/likewise-open/SENSETIME/liangweile/Android/Ndk/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/likewise-open/SENSETIME/liangweile/Android/Ndk/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /home/likewise-open/SENSETIME/liangweile/Android/Ndk/android-ndk-r16b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/likewise-open/SENSETIME/liangweile/Android/Ndk/android-ndk-r16b/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=23 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/data/gitSpace/BasicCamera2/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/data/gitSpace/BasicCamera2/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/data/gitSpace/BasicCamera2/app/build/intermediates/cmake/release/obj/arm64-v8a/libnative-lib.so",
+			"toolchain" : "6812447675862793573"
+		}
+	},
+	"toolchains" : 
+	{
+		"6812447675862793573" : 
+		{
+			"cCompilerExecutable" : "/home/likewise-open/SENSETIME/liangweile/Android/Ndk/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/likewise-open/SENSETIME/liangweile/Android/Ndk/android-ndk-r16b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
